@@ -1,3 +1,5 @@
+# The code below was written by me while completing a course from Codecademy.
+
 class Node:
   def __init__(self, value, next_node=None, prev_node=None):
     self.value = value
