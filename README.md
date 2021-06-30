@@ -1,19 +1,14 @@
-## Algorithms!
-
-So I enjoy solving algorithm questions from time to time on websites such as HackerRank, Codewars, and so on.
+## Algorithms and Data Structures
+This repo contains:
+- Data Structures : collection of any data structures, and algorithms that I have studied.
+- Other Algorithms : collection of other algorithms which I usually encountered while solving algorithm questions on websites such as HackerRank, Codewars, and so on.
 
 ## Why?
+Data Structures:
+- After doing lots of algorithm questions, I learnt it the hard way that I really need to think about data structure.
 
-- Personal projects are often too small and it is not so often that it requires an 'efficient algorithm'
-- On the other hand, these algorithm questions are probably too artificial to be directly useful in real-world coding, but still, doing these questions make me always want to code as efficiently as possible. It's a good habit!
-- Reading other people's solutions are extremely helpful!
-- Sometimes if I don't code in one language for a long time, it's easy to forget the syntax and some language-specific things. And I found it useful to occasionally do queestions in languages that I haven't used for a while.
-- For fun!
-
-## What's this for?
-
-I wanted to keep some of the codes for future reference, either by me or by others, because they were really well-written (as in efficient, or clever, or just beautiful!).
-
-## Data Structures
-
-!!
+Competitive Coding:
+- Personal projects are often too small to need an 'efficient algorithm', thus it's useful to practice on those websites
+- Reading other people's solutions are extremely helpful, even if I was able to solve the problem
+- A good way to practice a langauge that I haven't used for a while
+- Fun!
