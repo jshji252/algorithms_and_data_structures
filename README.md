@@ -1,7 +1,7 @@
 ## Algorithms and Data Structures
 This repo contains:
-- Data Structures : collection of any data structures, and algorithms that I have studied.
-- Other Algorithms : collection of other algorithms which I usually encountered while solving algorithm questions on websites such as HackerRank, Codewars, and so on.
+- Data Structures : collection of any data structures, and the algorithms associated with them;
+- Other Algorithms : collection of other algorithms which I encountered while solving algorithm questions on websites such as HackerRank, Codewars, and so on.
 
 ## Why?
 Data Structures:
