@@ -2,11 +2,11 @@
 
 ## Linear Search
 
-- No need for sorting
-- On average, O(N) time complexity, though we can hit the target with only 1 comparison.
+- Unsorted list
+- On average, O(N) time complexity, though it could hit the target with only 1 comparison.
 - Can handle duplicates!
 
 ## Binary Search
 
-- NEED sorting
+- Sorted List
 - O(log(N)) time complexity
