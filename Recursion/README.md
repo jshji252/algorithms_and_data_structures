@@ -18,5 +18,5 @@ Stak.Over.Flow, of course!
 
 ## Little more details
 
-Every time the function is called again, it is pushed into the Call Stack.
+Every time the function is called again, it is pushed into the **Call Stack**.
 Every time the function is resolved from the Call Stack, the returned value is added to the execution context, until all recursive functions are resolved.
