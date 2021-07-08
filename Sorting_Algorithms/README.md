@@ -20,3 +20,26 @@ Using the _Divide and Conquer_ method, recurse until we reach the base case of a
 3. Recurse the left/right to get left_sorted / right_sorted
 4. Return merge(left_sorted, right_sorted)
 5. Note the helper function merge()
+
+## Quick Sort
+
+Sorts quickly. Jks! What a name. Might as well name it, "great sort". Just kidding. Like Merge Sort, Quick Sort divides the list in half, so it also possesses the benefit of 'dividing'. Dividing is very desirable, because we can avoid a nested for loop. QS takes one step further in dividing process; everything on the left is _Less Than_ the **Pivot Value**, and everything on the right is _Greater Than_ the Pivot Value.
+
+1. Check if the input list contains one or 0 element (**base case**)
+2. Pick pivot wisely; _randomly_, for example.
+3. Swap the last element and the pivot element (this will make our lives easier. also, we'll put it back later)
+4. Declare a Less Than pointer at starting index.
+5. Loop the entire list
+   1. If a value is Less Than the pivot, move that element to where the pointer is
+   2. Less Than Pointer += 1
+6. Put back the pivot element to the origial position.
+   1. Notice now the list is in the following format: [ *less than pivot elements* , PIVOT, *greater than pivot elements* ]
+7. Repeat the same steps on the left (the less-thans) and on the right.
+
+table testing
+
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
