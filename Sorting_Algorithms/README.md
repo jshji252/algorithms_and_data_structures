@@ -44,3 +44,18 @@ Sorts quickly. Jks! What a name. Might as well name it, "great sort". Just kiddi
    - Notice now the list is in the following format:
    - [ *less than pivot elements* , PIVOT, *greater than pivot elements* ]
 7. Repeat the same steps on the left (the less-thans) and on the right.
+
+## Radix Sort
+
+Radix sort is an interesting one as it _sorts without comparing_. It simply reads a digit of the given number, and put that in the corresponding bucket. For example, if the number is 413, and if we are reading the 1st digit, then we just throw that in the bucket named '3'. Usually the buckets are just lists, and its index is the name of the bucket.
+
+Importantly, radix sort have O(n*w*), where w is the number of digits of the biggest number in the list. So if the list is [1, 2312, 2, 342], then d is 4, because 2312 is the biggest number and it has 4 digits. Is Radix Sort more efficient than other sorting algorithms that have O(n log n) complexity? Hmm, it's kind of tricky and we need to think. If we compare the complexities it's: n w versus n log n. Thus it's a game between log(n) and w. More simply, if log(n) > w, then yes, radix performs faster. If w > log(n), then the algorithm with seemingly-linear complexity performs worse. Like so :
+
+- It boils down to:
+  - n log(n) vs. n w
+- If (log n > w)
+  - Radix wins
+- If (log n < w)
+  - Radix loses
+
+In terms of real world applicaions, unless w <<< log(n), other sorting algorithms are probably more useful. Especially because they can handle non-numeric values too, as long as they are comparable(Radix sort only works with numbers). Another notable characteristic of radix sort is that it runs faster under parallel computing.
